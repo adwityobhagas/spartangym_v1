@@ -1,0 +1,282 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Roboto;
+	scroll-behavior: smooth !important;
+}
+/*START HEADER*/
+
+#header{
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 36.46%, rgba(255, 255, 255, 0) 100%), #A9BBC5;
+	animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1);
+	animation-duration: 1000ms;
+}
+
+.nav-item:hover{
+	color: white !important;
+}
+/*END HEADER*/
+
+/*START BANNER*/
+#banner{
+	text-align: center;
+	padding: 120px 0 190px 0;
+	margin: 0;
+}
+
+#banner h1{
+	font-weight: bold;
+}
+
+#banner button{
+	letter-spacing: 0.5rem;
+	padding-left: 17px;
+	border: none;
+	color: black;
+}
+
+#banner button:hover{
+	background:black;
+	color: white;
+}
+/*END BANNER*/
+
+/*START PRICING + PRICES*/
+#pricing h3{
+	text-align: center;
+	margin: 0;
+	padding: 42px 0 13px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+}
+
+#pricing a{
+	color: black;
+	font-size: 24px;
+	border:none;	
+}
+
+.prices{
+	text-align: center;
+}
+
+#pricing .btn:hover{
+	background: black;
+	border:none;
+	color: white;
+}
+/*END PRICING + PRICES*/
+
+/*START TESTIMONY*/
+#testimony{
+	
+}
+
+#testimony h3{
+	text-align: center;
+	margin: 0;
+	padding: 42px 0 13px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+}
+/*END TESTIOMNY*/
+
+/*START CONTACTS*/
+#contacts h5{
+	font-weight: 600;
+}	
+
+#contacts a{
+	font-weight: 500;
+	color: black;
+}
+
+#contacts a:hover{
+	color: white;
+}
+
+.register .btn:hover{
+	background: black;
+	border:none;
+	color: white
+}
+
+.register .btn{
+	color: black;
+	border: none;
+}
+/*END CONTACTS*/
+
+/*START FOOTER*/
+#footer p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+}
+
+#footer{
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.75) 100%), #A9BBC5;
+}
+/*END FOOTER*/
+
+/*START GALLERY*/
+#gallery{
+	padding-top: 31px;
+}
+.example-image{
+	width: 10rem;
+	border-radius: var(--border-radius);
+	padding: 10px; 
+}
+/*END GALLERY*/
+
+/*START TRAINER*/
+#trainer{
+	padding-top: 31px;
+}
+/*END TRAINER*/
+
+/*START PRODUCT*/
+#product
+/*END PRODUCT*/
+
+/*START REGISTER*/
+
+/*END REGISTER*/
+
+/*START MEMBER AREA*/
+#body-row {
+    margin-left:0;
+    margin-right:0;
+}
+
+/*START SIDEBAR*/
+#sidebar-container {
+    min-height: 100vh;   
+    background-color: #333;
+    padding: 0;
+}
+
+.sidebar-expanded {
+    width: 230px;
+}
+
+.sidebar-collapsed {
+    width: 60px;
+}
+
+#sidebar-container .list-group a {
+    height: 50px;
+    color: white;
+}
+
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+}
+
+.sidebar-submenu {
+    font-size: 0.9rem;
+}
+
+.sidebar-separator-title {
+    background-color: #333;
+    height: 35px;
+}
+
+.sidebar-separator {
+    background-color: #333;
+    height: 25px;
+}
+
+.logo-separator {
+    background-color: #333;    
+    height: 60px;
+}
+
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+  content: " \f0d7";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+  content: " \f0da";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+/*END SIDEBAR*/
+
+/*START CALENDAR*/
+.container-event{
+	position: fixed;
+}
+
+.fc-event{
+	margin: 5px 0;
+	cursor: move;
+}
+/*END CALENDAR*/
+
+/*END MEMBER AREA*/
+
+/*START LOGIN PAGE*/
+.form-signin{
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+
+.custom{
+	display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.now p{
+	font-color: black;
+}
+
+.now p:hover{
+	color: white;
+}
+/*END LOGIN PAGE*/
+
+/*ANIMATION*/
+a#testimony{
+	position: absolute;
+}
+/*END ANIMATION*/
+
+/*UTILITY*/
+.menu{
+	color: black !important;
+	font-size: 22px;
+}
+
+.mt-custom{
+	margin-top: 88px;
+}
+
+.bg-telorasin{
+	background-color: #A9BBC5;
+}
+
+.bg-gray{
+	background-color: #AEABAB;
+}
+
+.bg-lightgray{
+	background-color: #C4C4C4;
+}
